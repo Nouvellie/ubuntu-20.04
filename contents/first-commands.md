@@ -64,18 +64,51 @@ $ sudo apt install git -y
 $ sudo apt install mysql-server -y
 ```
 
-## ZSH (powerful command interpreter, shell. As SUDO!!)
+## ZSH (powerful command interpreter, shell. As SUDO!!, this will install zsh on both user and sudo)
 
 ```sh
 $ sudo apt install zsh -y
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ cd
+$ sudo vim .zshrc
+```
+
+#### [.zshrc]
+
+```sh
+export ZSH="/opt/oh-my-zsh/.oh-my-zsh"
+ZSH_THEME="essembeh"
+```
+
+#### Then ..
+
+```sh
 $ sudo mkdir /opt/oh-my-zsh
 $ sudo cp -r /root/.oh-my-zsh /opt/oh-my-zsh
 $ cp -r /root/.zshrc /home/<username>/
-$ chsh --shell=`which zsh` ${nouvellie}
+$ chsh --shell=`which zsh` ${<username>}
 ```
 
-Check /root/.oh-my-zsh/
+#### Two plugins:
+
+```sh
+$ sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+$ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+#### [.zshrc]
+
+For users and sudo.
+
+```sh
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+#### Apply changes:
+
+```sh
+$ source $ZSH/oh-my-zsh.sh
+```
 
 ## Curl (command line tool)
 
