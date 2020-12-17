@@ -1,6 +1,6 @@
 # CONTENTS
 
-- [First commands.](https://github.com/Nouvellie/ubuntu/blob/ubuntu/contents/anaconda.md)
+- [First commands.](https://github.com/Nouvellie/ubuntu-20.04/blob/main/contents/first-commands.md)
 
 
 <br><br><p align="center">

@@ -10,6 +10,10 @@ $ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo ap
 
 Open "software and updates" and then "other software". Click and install.
 
+## Language
+
+In *settings/regions&languages* select *"manage installed languages and install them completely"*.
+
 ## Htop (ncurses-based process viewer)
 
 ```sh
