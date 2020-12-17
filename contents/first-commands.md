@@ -44,6 +44,23 @@ $ sudo apt install ncdu -y
 $ sudo apt install radeontop -y
 ```
 
+## Synaptic Gdebi
+#### Install:
+
+```sh
+$ sudo apt install synaptic gdebi -y
+```
+
+#### Synaptic search box:
+
+```sh
+$ sudo apt install apt-xapian-index -y && sudo update-apt-xapian-index -vf
+```
+
+#### FFmpeg:
+
+Search, apply and install.
+
 ## Sublime text (IDE, with Ubuntu software)
 
 Search and install.
