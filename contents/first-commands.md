@@ -115,3 +115,50 @@ $ source $ZSH/oh-my-zsh.sh
 ```sh
 $ sudo apt install curl -y
 ```
+
+## Anaconda (python distribution platform, As SUDO!!)
+
+```sh
+$ curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+$ sudo bash ./Anaconda3-2020.11-Linux-x86_64.sh
+```
+
+<kbd>ENTER</kbd><br>
+
+```sh
+yes
+```
+
+#### Path:
+
+```sh
+/opt/anaconda3
+```
+
+#### Do you wish the installer to initialize Anaconda3:
+
+```sh
+yes # (Important)
+```
+
+#### Conda update:
+
+Reset the terminal first.
+
+```sh
+$ conda update -n base -c defaults conda -y
+```
+
+#### To access Conda commands with any user, edit environment:
+
+```sh
+$ sudo vim /etc/environment
+```
+
+#### [environmnet]
+
+```sh
+PATH=/opt/anaconda3/bin:$PATH
+```
+
+Restart PC.
