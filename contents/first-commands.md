@@ -61,6 +61,46 @@ $ sudo apt install apt-xapian-index -y && sudo update-apt-xapian-index -vf
 
 Search, apply and install.
 
+## Gnome Tweak Tool
+#### Install:
+
+```sh
+$ sudo add-apt-repository universe -y
+$ sudo apt install gnome-tweak-tool -y
+```
+
+#### Gnome Shell extensions, first:
+
+```sh
+$ sudo apt search gnome-shell-extension -y
+$ sudo apt install  gnome-shell-extension-gsconnect -y 
+$ sudo apt install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1) -y
+$ sudo apt install chrome-gnome-shell -y
+$ sudo apt-get install adapta-gtk-theme -y 
+$ sudo apt install arc-theme papirus-icon-theme -y
+```
+
+#### Second:
+
+[User themes](https://extensions.gnome.org/extension/19/user-themes/)
+
+Switch to **ON** and click *install*.
+
+#### Restarts GNOME Shell:
+
+<kbd>Alt</kbd> + <kbd>F2</kbd><br>
+<kbd>r</kbd> + <kbd>ENTER</kbd>
+
+#### Recommended configuration:
+
+```sh
+- Adwaita-dark
+- Redglass
+- Papirus-Dark
+- Yaru-dark
+- Yaru
+```
+
 ## Sublime text (IDE, with Ubuntu software)
 
 Search and install.
