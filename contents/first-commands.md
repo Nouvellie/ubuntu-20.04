@@ -133,6 +133,15 @@ Search and install.
 
 Search and install.
 
+#### Extension: 
+
+- Prettier - Code formatter. (Prettier)
+- Python. (Microsoft)
+- Django. (Baptiste Darthenay)
+- React Native Tools. (Microsoft)
+- ES7 React/Redux/GraphQL/React-Native snippets. (Dsznajder)
+- JavaScript (ES6) code snippets. (Charalampos Karypidis) 
+
 ## GIT
 
 ```sh
