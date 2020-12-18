@@ -38,6 +38,12 @@ $ sudo apt install inxi -y
 $ sudo apt install ncdu -y
 ```
 
+## OpenCV libs
+
+```sh
+$ sudo apt update && apt install -y libsm6 libxext6 libxrender1
+```
+
 ## Radeontop (gpu utilization, after install amdgpu)
 
 ```sh
