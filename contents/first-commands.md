@@ -50,6 +50,12 @@ $ sudo apt update && apt install -y libsm6 libxext6 libxrender1
 $ sudo apt install radeontop -y
 ```
 
+## Nginx (proxy server)
+
+```sh
+$ sudo apt install nginx -y
+```
+
 ## Synaptic Gdebi
 #### Install:
 
